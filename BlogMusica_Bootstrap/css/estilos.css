@@ -1,10 +1,15 @@
-.blog_musica{
-
-  background: rgb(203, 233, 32);
+.cabecera{
+  min-height: 50px;
 }
 
-.logo_img{
-  min-height: 50px;
-  border: 1px solid black;
-  background: rgb(50, 233, 32);
+.icon{
+  width: 40px;
+}
+
+.link_icon{
+  margin-right: 5px;
+}
+
+.tabla_iconos{
+  height: 100%;
 }
