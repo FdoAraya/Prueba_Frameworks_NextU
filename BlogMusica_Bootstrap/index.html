@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
     <link rel="stylesheet" href="css/estilos.css">
   </head>
-  <body class="bg-warning">
-      <div class="row bg-success cabecera">
+  <body class="bg-light">
+    <div class="container">
+      <div class="row cabecera border-bottom border-success">
         <div class="col cabecera text-center">
           <img src="img/logo_audifonos.png" alt="" class="img-circle img-fluid">
         </div>
@@ -34,24 +35,24 @@
           </div>
         </div>
       </div>
-      <nav class="nav nav-pills flex-column flex-sm-row bg-dark">
-        <a class="flex-sm-fill text-center nav-link active text-white" href="#">Incio</a>
-        <a class="flex-sm-fill text-center nav-link text-white" href="#">Artistas</a>
-        <a class="flex-sm-fill text-center nav-link text-white" href="#">Grupos</a>
-        <a class="flex-sm-fill text-center nav-link text-white" href="#">Top 10</a>
-        <a class="flex-sm-fill text-center nav-link text-white" href="#">Letras</a>
-        <a class="flex-sm-fill text-center nav-link text-white" href="#">Acordes</a>
+      <nav class="nav nav-pills flex-column flex-sm-row bg-light">
+        <a class="flex-sm-fill text-center nav-link active text-black" href="#">Incio</a>
+        <a class="flex-sm-fill text-center nav-link text-black" href="#">Artistas</a>
+        <a class="flex-sm-fill text-center nav-link text-black" href="#">Grupos</a>
+        <a class="flex-sm-fill text-center nav-link text-black" href="#">Top 10</a>
+        <a class="flex-sm-fill text-center nav-link text-black" href="#">Letras</a>
+        <a class="flex-sm-fill text-center nav-link text-black" href="#">Acordes</a>
       </nav>
-      <div class="row">
-        <div class="col-lg-8">
+      <div class="row border-top border-success">
+        <div class="col-lg-8 bg-light border-right border-success">
           <div class="media">
-            <div class="media-body textos_musica">
+            <div class="media-body margen_5px">
               <h5 class="mt-0 mb-1">How do i breath</h5>
               Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
             </div>
             <img class="ml-3 imagen-cuerpo" src="img/logo_audificinos.png" alt="ejemplo">
           </div>
-          <form class="textos_musica">
+          <form class="margen_5px">
             <div class="form-group row align-items-center">
               <div class="col-sm-1 text-center">
                 <img src="img/user-alt-solid.svg" alt="Responsive Icon" class="img-fluid icon">
@@ -63,12 +64,12 @@
           </form>
           <div class="media">
             <img class="ml-3 imagen-cuerpo" src="img/logo_audificinos.png" alt="ejemplo">
-            <div class="media-body textos_musica">
+            <div class="media-body margen_5px">
               <h5 class="mt-0 mb-1">How do i breath</h5>
               Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
             </div>
           </div>
-          <form class="textos_musica">
+          <form class="margen_5px">
             <div class="form-group row align-items-center">
               <div class="col-sm-1 text-center">
                 <img src="img/user-alt-solid.svg" alt="Responsive Icon" class="img-fluid icon">
@@ -80,9 +81,28 @@
           </form>
         </div>
         <div class="col">
-
+          <div class="container margen_5px">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <button class="btn btn-outline-secondary bg-light border border-black" type="button" id="button-addon1"><img src="img/search-solid.svg" alt="Responsive Icon" class="img-fluid icon" style="width: 20px"></button>
+              </div>
+              <input type="text" class="form-control border border-black" placeholder="Buscar..." aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action active">Canciones</a>
+              <a href="#" class="list-group-item list-group-item-action">Artistas</a>
+              <a href="#" class="list-group-item list-group-item-action">Nuevos Artistas</a>
+              <a href="#" class="list-group-item list-group-item-action">Estilos de Musica</a>
+              <a href="#" class="list-group-item list-group-item-action">Instrumentos</a>
+              <a href="#" class="list-group-item list-group-item-action">Locales</a>
+              <a href="#" class="list-group-item list-group-item-action">Conciertos</a>
+              <a href="#" class="list-group-item list-group-item-action">Discos</a>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
