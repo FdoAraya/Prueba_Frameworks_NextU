@@ -7,57 +7,219 @@
     <title>Foundation for Sites</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="css/estilos.css">
   </head>
   <body>
-    <div class="row">
-        <div class="columns small-4 borde ">
-          <div class="row align-right">
-            <div class="columns small-12">
-              <h3>Blog Gastronomía</h3>
-            </div>
-            <div class="columns small-8  text-right">
-              <p>El blog de la cocina de Fernando Araya</p>
-            </div>
-          </div>
-        </div>
-    </div>
-    <div class="row">
-      <div class="columns small-4 borde">
-        <div class="row">
-          <div class="columns small-12">
-            <form class="margen">
-              <div class="row">
-                <div class="columns small-2 cell">
-                  <label for="middle-label" class="text-right middle"><img src="img/search-solid.svg" alt="icono buscador" class="icono"></label>
+    <div class="container">
+
+      <div class="row">
+
+          <div class="columns small-12 medium-4 hide-for-small-only">
+            <div class="card">
+              <div class="row align-right">
+                <div class="columns small-12">
+                  <h3 class="success">Blog Gastronomía</h3>
                 </div>
-                <div class="columns small-10 cell">
-                  <input type="text" id="middle-label" placeholder="Buscar...">
+                <div class="columns small-8 text-right margen-der">
+                  <p>El blog de la cocina de Fernando Araya</p>
                 </div>
               </div>
-            </form>
+            </div>
           </div>
-          <div class="columns small-12">
-            <div class="expanded button-group">
-              <a class="secondary button">Inicio</a>
+
+          <div class="columns small-12 medium-4 show-for-small-only">
+            <div class="card">
+              <div class="row align-right">
+                <div class="columns small-12">
+                  <h1 class="success">Blog Gastronomía</h1>
+                </div>
+                <div class="columns small-8 text-right margen-der">
+                  <h3>El blog de la cocina de Fernando Araya</h3>
+                </div>
+              </div>
             </div>
-            <div class="expanded button-group">
-              <a class="button">Mi Plato Favorito</a>
-            </div>
-            <div class="expanded button-group">
-              <a class="button">Mis Recetas</a>
+          </div>
+
+      </div>
+
+      <div class="row">
+        <div class="columns small-4 hide-for-small-only">
+          <div class="card">
+            <div class="row">
+              <div class="columns small-12">
+                <form class="margen">
+                  <div class="row">
+                    <div class="input-group margen-lados">
+                      <span class="input-group-label"><i class="fi-magnifying-glass"></i> </span>
+                      <input class="input-group-field" type="number">
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="columns small-12">
+                <div class="expanded button-group margen-lados">
+                  <a class="secondary button">Inicio</a>
+                </div>
+                <div class="expanded button-group margen-lados">
+                  <a class="button">Mi Plato Favorito</a>
+                </div>
+                <div class="expanded button-group margen-lados">
+                  <a class="button">Mis Recetas</a>
+                </div>
+              </div>
+              <div class="columns small-4">
+                <img class="thumbnail" src="img/alfajor.jpg" alt="">
+              </div>
+              <div class="columns small-4">
+                <img class="thumbnail " src="img/asado-aleman.jpg" alt="">
+              </div>
+              <div class="columns small-4">
+                <img class="thumbnail " src="img/ceviche.jpg" alt="">
+              </div>
+              <div class="columns small-4">
+                <img class="thumbnail " src="img/costillar.jpg" alt="">
+              </div>
+              <div class="columns small-4">
+                <img class="thumbnail " src="img/hamburguesa.jpg" alt="">
+              </div>
+              <div class="columns small-4">
+                <img class="thumbnail " src="img/lasagna.jpg" alt="">
+              </div>
+              <div class="columns small-12 margen-lados">
+                <h5>Historial:</h5>
+              </div>
+              <div class="columns small-12 margen-lados">
+                <ul class="list-circle">
+                  <li class="margen">Mejores comidas italianas</li>
+                  <li class="margen">Comida casera en 5 minutos</li>
+                  <li class="margen">Gastronomía peruana</li>
+                  <li class="margen">Las 5 mejores comidas del sur de chile</li>
+                  <li class="margen">Formas de cocinar el pollo</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
 
+        <div class="columns small-12 medium-8">
+          <div class="card">
+            <div class="row margen">
+              <div class="columns small-12 borde_bajo">
+                  <h3 class="margen">Lasaña Vegetariana</h3>
+                  <p class="margen">Especialidad de mi abuela</p>
+                  <img class="thumbnail " src="img/lasagna-vegetariana.jpg" alt="">
+                  <p class="text-justify margen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="columns small-12">
+                <label class="margen">
+                  Escribe un Comentario:
+                  <textarea placeholder="Escribe aquí tu comentario" rows="4"></textarea>
+                </label>
+                <div class="row">
+                  <div class="columns small-12 text-right">
+                    <button class="button margen-der" type="button">
+                        <i class="fi-pencil">Publicar</i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="row align-spaced margen">
+                <div class="columns small-10 align-spaced">
+                  <div class="row align-right borde padd">
+                    <div class="columns small-2">
+                      <img src="img/man.svg" alt="">
+                    </div>
+                    <div class="columns small-10">
+                      <p class="font-bold">Ignacio:</p> Muy buena la receta, es muy parecida a la que hago yo, solamente que no le agegaba espinca
+                    </div>
+                  </div>
+                </div>
+                <div class="columns small-10 align-spaced">
+                  <div class="row align-right borde padd">
+                    <div class="columns small-2">
+                      <img src="img/girl.svg" alt="">
+                    </div>
+                    <div class="columns small-10">
+                      <p class="font-bold">María:</p> Me parece una receta muy común, pero la probaré de igual forma para probar si sigo tus otras recetas.
+                    </div>
+                  </div>
+                </div>
+                <div class="columns small-10 align-spaced">
+                  <div class="row align-right borde padd">
+                    <div class="columns small-2">
+                      <img src="img/girl_2.svg" alt="">
+                    </div>
+                    <div class="columns small-10">
+                      <p class="font-bold">Pamela:</p> Es una receta muy interesante, invitaré a mi novio a cenar está noche y utilizaré tu receta para enamorarlo aún más. (ya que ama la lasaña)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div class="card margen">
+            <div class="row margen">
+              <div class="columns small-12 borde_bajo">
+                  <h3 class="margen">Ceviche Peruano</h3>
+                  <p class="margen">Especialidad FdoAraya</p>
+                  <img class="thumbnail" src="img/ceviche_peruano.jpg" alt="">
+                  <p class="text-justify margen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="columns small-12">
+                <label class="margen">
+                  Escribe un Comentario:
+                  <textarea placeholder="Escribe aquí tu comentario" rows="4"></textarea>
+                </label>
+                <div class="row">
+                  <div class="columns small-12 text-right">
+                    <button class="button margen-der" type="button">
+                        <i class="fi-pencil">Publicar</i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="row align-spaced margen">
+                <div class="columns small-10 align-spaced">
+                  <div class="row align-right borde padd">
+                    <div class="columns small-2">
+                      <img src="img/man.svg" alt="">
+                    </div>
+                    <div class="columns small-10">
+                      <p class="font-bold">Juan:</p> Le dije a mi novia si podía cocinarme tu receta de ceviche, y no es por alardear, pero a mi novia le quedo exquisio, pero además le agrego otros mariscos.
+                    </div>
+                  </div>
+                </div>
+                <div class="columns small-10 align-spaced">
+                  <div class="row align-right borde padd">
+                    <div class="columns small-2">
+                      <img src="img/girl.svg" alt="">
+                    </div>
+                    <div class="columns small-10">
+                      <p class="font-bold">Blanca:</p> El otro día tuve una fiesta y cocine com entrada ceviche, causó senasión. Muy buena receta.
+                    </div>
+                  </div>
+                </div>
+                <div class="columns small-10 align-spaced">
+                  <div class="row align-right borde padd">
+                    <div class="columns small-2">
+                      <img src="img/girl_2.svg" alt="">
+                    </div>
+                    <div class="columns small-10">
+                      <p class="font-bold">Pamela:</p> La otra noche hice tu receta de ceviche y me gusto mucho, se lo recomendare a mis amigos
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-      </div>
-
-      <div class="columns small-8 borde">
+        </div>
 
       </div>
     </div>
+
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>

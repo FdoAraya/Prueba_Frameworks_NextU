@@ -1,11 +1,24 @@
 .borde{
-  border: 1px solid black;
+  border: 1px solid ;
 }
 
 .margen{
-  margin-top: 10px;
+  margin: 10px;
 }
 
-.icono{
-  width: 20px;
+.padd{
+  padding: 5px;
+}
+
+.borde_bajo{
+  border-bottom: 1px solid grey;
+}
+
+.margen-der{
+  margin-right: 10px;
+}
+
+.margen-lados{
+  margin-right: 10px;
+  margin-left: 10px;
 }
