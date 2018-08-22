@@ -1,0 +1,25 @@
+.borde{
+  border: 1px solid black;
+}
+
+.margen-bot{
+  margin-bottom: 40px;
+}
+
+.altura_cuerpo{
+  height: 800px;
+}
+
+p{
+  text-align: justify;
+  margin: 0 10 0 10;
+}
+
+.flotante{
+  float: left;
+  margin-right: 10px;
+}
+
+.margen-top{
+  margin-top: 20px;
+}
